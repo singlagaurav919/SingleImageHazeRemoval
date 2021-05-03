@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>about</title>
+	<link rel="stylesheet" href="../static/css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../static/css/mobile.css">
+	<script src="../static/js/mobile.js" type="text/javascript"></script>
+    <style>
+        
+.body{
+	height:0px;
+	background-color:blue;
+}
+.error_type
+{
+	height: 200px;
+	font-family: 'Pacifico', cursive;
+	font-size: 100px;
+}
+.go_back
+{
+	height: 80px;
+	width = 100%;
+}
+    </style>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div>
+				<a href="index.html" class="logo"><div id="logo1"></div></a>
+				<ul id="navigation">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li class="menu selected">
+						<a href="about.html">About</a>
+					</li>
+				
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="body">
+			<div class="header">
+				<div class = "error_type">
+					<h1 >{{ message }}</h1>
+				</div>
+			</div>
+			<a href="index.html"><center><img class = "go_back" src="../static/images/goback.png" alt="Click Here to Go Back"></center></a>
+
+		</div>
+		
+	</div>
+</body>
+</html>
